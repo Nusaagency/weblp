@@ -1,0 +1,165 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+/* Web Core Nusa */
+@layer components{
+    .top_bar{
+        @apply bg-slate-700;
+    }
+}
+
+
+
+
+
+
+
+
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: var(--secondary) var(--primary);
+}
+
+.bg-hiro{
+    background: linear-gradient(201deg, #5319CD 16.52%, #50CBE6 43.15%, #78F985 82.63%);
+}
+.kustom_buton {
+    display: flex;
+    width: 282px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background: #78F985;
+    box-shadow: 0px 0px 0px 7.51473px rgba(255, 255, 255, 0.50);
+  }
+.slider_paket{
+    border-radius: 12px;
+background: rgba(0, 0, 0, 0.20);
+}
+
+.bg-gradient {
+    background: linear-gradient(213deg, #af88ff 16.52%, #50CBE6 43.15%, #78F985 82.63%)
+}
+
+.bg_custom {
+    background: rgba(0, 0, 0, 0.20);
+}
+
+.ken_w {
+    width: 100% !important;
+    height: 80px !important;
+    min-width: 100% !important;
+    max-width: 100% !important;
+}
+
+.radius-custom {
+    border-radius: 20px;
+}
+
+.text_paket {
+    color: #2C313A;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    /* 157.143% */
+}
+.card_feature{
+    background: linear-gradient(16deg, #47BAB3 8.33%, #292ED4 91.67%);
+}
+.kustom_buton {
+    display: flex;
+    width: 282px;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    background: #78F985;
+    box-shadow: 0px 0px 0px 7.51473px rgba(255, 255, 255, 0.50);
+}
+
+.card_promo{
+    display: flex;
+    width: 100%;
+    padding: 16px 14px 26px 14px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    background: linear-gradient(222deg, #194BCD 16.52%, #50CBE6 58.79%, #78F985 82.63%);
+    box-shadow: 0px 16px 20px 4px rgba(129, 134, 141, 0.16);
+}
+.button_konsultasi_sekarang{
+    padding: 12px 77.17px 12px 77.83px;
+    border-radius: 12px;
+    border: 2px solid #47BAB3;
+    box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+.img_card_promo{
+    width: 142px;
+    height: 80px;
+    max-width: 370.5px
+}
+
+.input_wa{
+display: flex;
+width: 310px;
+max-width: 342.5px;
+padding: 13.8px;
+flex-direction: column;
+align-items: flex-start;
+}
+
+.bg-dadang{
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    bottom: 0;
+    z-index: -9999;
+    background: linear-gradient(16deg, #47BAB3 8.33%, #292ED4 91.67%);
+}
+
+.ribbon{
+    position: absolute;
+    top: -14px;
+    left: -113px;
+}
+
+
+.container_custom {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+@media (min-width: 1640px) {
+    .container_custom {
+        width: 80%;
+    }
+}
+
+@media (min-width: 2040px) {
+    .container_custom {
+        width: 70%;
+    }
+}
+
+@media (min-width: 2540px) {
+    .container_custom {
+        width: 50%;
+    }
+}
+
+@media (min-width: 3040px) {
+    .container_custom {
+        width: 20%;
+    }
+}
